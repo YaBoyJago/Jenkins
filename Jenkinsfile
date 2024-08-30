@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the code...'
+                echo 'Change for demo'
                 // Use a build automation tool, e.g., Maven
                 // Example: sh 'mvn clean install'
                 echo 'Build tool: Maven (or other appropriate tool)'
